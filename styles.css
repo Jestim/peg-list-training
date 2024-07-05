@@ -37,7 +37,7 @@ h1 {
 }
 
 #peg-number {
-		padding: 1rem;
+		padding: 0.5rem;
 		width: 60%;
 		border: 1px solid #ccc;
 		border-radius: 5px;
@@ -48,7 +48,7 @@ h1 {
 		display: flex;
 		flex-direction: column;
 		align-items: center;
-		padding: 1rem;
+		padding: 0.5rem;
 		width: 60%;
 		border: 1px solid #ccc;
 		border-radius: 5px;
@@ -60,7 +60,7 @@ h1 {
 		display: flex;
 		flex-direction: column;
 		align-items: center;
-		padding: 1rem;
+		padding: 0.5rem;
 		width: 60%;
 		border: 1px solid #ccc;
 		border-radius: 5px;
@@ -75,7 +75,7 @@ h1 {
 
 #form input {
 		margin: 1rem;
-		padding: 1rem;
+		padding: 0.5rem;
 		width: 100%;
 		border: 1px solid #ccc;
 		border-radius: 5px;
@@ -83,8 +83,7 @@ h1 {
 }
 
 #form button {
-		/* margin: 1rem; */
-		padding: 1rem;
+		padding: 0.5rem;
 		width: 100%;
 		border: 1px solid #ccc;
 		border-radius: 5px;
@@ -97,7 +96,7 @@ h1 {
 		display: flex;
 		flex-direction: column;
 		align-items: center;
-		padding: 1rem;
+		padding: 0.5rem;
 		width: 60%;
 		border: 1px solid #ccc;
 		border-radius: 5px;
@@ -110,7 +109,7 @@ h1 {
 }
 
 #select-container input {
-		padding: 1rem;
+		padding: 0.5rem;
 		width: 100%;
 		border: 1px solid #ccc;
 		border-radius: 5px;
