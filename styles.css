@@ -1,0 +1,135 @@
+/* Reset default styles */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/* For most browsers */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* For Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+/* Add your custom styles here */
+body {
+	font-family: Arial, sans-serif;
+	background-color: #f2f2f2;
+	color: #333;
+}
+
+h1 {
+	margin: 20px;
+	text-align: center;
+}
+
+#main-container {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		height: 100%;
+}
+
+#peg-number {
+		/* margin: 10px; */
+		padding: 10px;
+		width: 60%;
+		border: 1px solid #ccc;
+		border-radius: 5px;
+		text-align: center;
+}
+
+#answers {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		/* margin: 20px; */
+		padding: 20px;
+		width: 60%;
+		border: 1px solid #ccc;
+		border-radius: 5px;
+		background-color: #fff;
+		box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* #result {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		margin: 20px;
+		padding: 20px;
+		border: 1px solid #ccc;
+		border-radius: 5px;
+		background-color: #fff;
+		box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+} */
+
+#form {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		/* margin: 20px; */
+		padding: 20px;
+		width: 60%;
+		border: 1px solid #ccc;
+		border-radius: 5px;
+		background-color: #fff;
+		box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#form label {
+	margin: 10px;
+	font-size: large;
+}
+
+#form input {
+		margin: 10px;
+		padding: 10px;
+		width: 300px;
+		border: 1px solid #ccc;
+		border-radius: 5px;
+		text-align: center;
+}
+
+#form button {
+		margin: 10px;
+		padding: 10px;
+		width: 320px;
+		border: 1px solid #ccc;
+		border-radius: 5px;
+		background-color: #007bff;
+		color: #fff;
+		font-size: 16px;
+		cursor: pointer;
+}
+
+#select-container {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		/* margin: 20px; */
+		padding: 20px;
+		width: 60%;
+		border: 1px solid #ccc;
+		border-radius: 5px;
+		background-color: #fff;
+		box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#select-container label {
+		margin-top: 10px;
+}
+
+#select-container input {
+		padding: 10px;
+		width: 300px;
+		border: 1px solid #ccc;
+		border-radius: 5px;
+		text-align: center;
+}

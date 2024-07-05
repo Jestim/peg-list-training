@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Peg Training</title>
+	<script src="./index.js" defer></script>
+	<link rel="stylesheet" href="./styles.css">
+	<link rel="icon" href="./favicon.ico" type="image/x-icon">
+</head>
+<body>
+	<h1>PEG Training</h1>
+	<div id="main-container">
+		<h1 id="peg-number">00</h2>
+		<div id="answers">
+			<h2 id="result">Result</h2>	
+			<p id="correct">Correct: 0</p>
+			<p id="incorrect">Incorrect: 0</p>
+		</div>
+		<form id="form">
+			<label for="input">Peg Word</label>
+			<input type="text" id="input" autocomplete="off" placeholder="Enter word associated with the number">
+			<button id="submit">Submit</button>
+		</form>
+		<div id="select-container">
+			<h2>Choose the range</h2>
+			<label for="min">Min</label>
+			<input type="number" id="min" min="0" max="100" value="0">
+			<label for="max">Max</label>
+			<input type="number" id="max" min="0" max="100" value="60">
+		</div>
+	</div>
+</body>
+</html>
