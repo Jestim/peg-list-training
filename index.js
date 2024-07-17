@@ -47,7 +47,7 @@ function main() {
 			submitEl.addEventListener('click', (event) => {
 				event.preventDefault()
 				console.log('submit')
-				const input = inputEl.value.toLowerCase()
+				const input = inputEl.value.toLowerCase().trim()
 				console.log('input: ', input)
 
 				if (input === currentPegWord) {
@@ -88,7 +88,7 @@ function main() {
 }
 
 async function getPegList() {
-	const result = await fetch('./peg-list.json')
+	const result = await fetch('./peg-list-2.json')
 	if (!result.ok) {
 		throw new Error('Failed to fetch peg list')
 	}
